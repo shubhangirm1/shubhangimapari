@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yogesh Mapari Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.jpg" alt="Yogesh Mapari" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Yogesh Mapari">Yogesh Mapari</h1>
+
+          <p class="title">Data Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:patilmapari@gmail.com" class="contact-link">patilmapari@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+91 9130633135" class="contact-link">9130633135</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1998-05-13">May 13, 1998</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Pune, Maharashtra India </address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/yogesh-mapari-71ba52183/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+      
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li> -->
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Detail-oriented and results-driven Cloud Developer with 2 years of hands-on experience specializing in
+            Google Cloud Platform (GCP), Python programming, and SQL expertise. Adept at architecting,
+            developing, and deploying secure and scalable cloud-based solutions that leverage GCP's robust suite of
+            services. Proven track record of collaborating with cross-functional teams to deliver comprehensive
+            Python while integrating security best practices and compliance standards. Possess a strong
+            commitment to maintaining data integrity, implementing secure coding practices, and staying updated with
+            the latest industry trends. Skilled in cloud architecture, data processing, and incident response.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          
+            <li class="skills-item">
+            
+<ul class="skills-list content-card">
+
+  <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/gcp.png
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">🔧 GCP Services :</h4>
+
+                <p class="service-item-text">
+                  Deploying Python on GCP using Compute Engine, App Engine, Kubernetes Engine, Cloud Storage, Cloud SQL, BigQuery, Pub/Sub, Dataflow, Cloud Functions, and Cloud IAM.
+
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/auto.png" alt="SQL icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">🤖 Automation and Scripting:</h4>
+
+                <p class="service-item-text">
+                  Developing Python scripts to automate tasks and manage GCP resources efficiently.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/database.jpeg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">🔍 Database Expertise :</h4>
+
+                <p class="service-item-text">
+                  Designing and maintaining relational databases on Cloud SQL, and utilizing NoSQL databases like Firestore and Bigtable.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/proce.jpeg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">📊 Data Processing and Analysis :</h4>
+
+                <p class="service-item-text">
+                  Implementing data processing pipelines using Apache Beam and Cloud Dataflow. Conducting data analysis with BigQuery and SQL.
+                </p>
+              </div>
+
+            </li>
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/network.jpeg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">🌐 Networking :</h4>
+
+                <p class="service-item-text">
+                  Configuring GCP networking components, VPCs, firewalls, and networking services. Implementing Cloud Load Balancing and CDN services.
+                </p>
+              </div>
+
+            </li>
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/security.png" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">🔐 Security :</h4>
+
+                <p class="service-item-text">
+                  Enforcing security best practices, setting up IAM, and collaborating on incident response for robust security measures.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/logg.jpeg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">📈 **Monitoring and Logging**:</h4>
+
+                <p class="service-item-text">
+                  Setting up monitoring and logging using Stackdriver, creating customized alerts, and dashboards for effective system health monitoring.
+                </p>
+              </div>
+
+            </li>            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/cicd.png" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">🛠️ CI/CD :</h4>
+
+                <p class="service-item-text">
+                  Implementing and maintaining CI/CD pipelines using Jenkins, GitLab CI, or Cloud Build for continuous integration and delivery.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/collab.jpg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">🤝 Collaboration :</h4>
+
+                <p class="service-item-text">
+                  Working collaboratively in cross-functional teams, communicating effectively, and utilizing Git for version control.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+             
+
+            </div>
+
+          </section>
+
+        </div>
+    
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+         
+
+
+  
+          
+          <h3 class="h3 clients-title">Worked With</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+       
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            
+
+          </ul>
+
+        </section>
+        <h3 class="h3 clients-title">Download Resume</h3>
+  
+        <ul class="clients-list has-scrollbar">
+
+          <li class="clients-item">
+            <a href="./Yogesh_Mapari_Resume.pdf">
+              <img src="./assets/images/resume1.jpg" alt="client logo">
+              <embed 	src="./Yogesh_Mapari_Resume.pdf" 	type="application/pdf" 	width="100%" 	height="100%" />
+            </a>
+          </li>
+          <li class="clients-item">
+            <a href="./Yogesh_Mapari_Resume_v1_2024.pdf">
+              <img src="./assets/images/resume.png" alt="client logo">
+              <embed 	src="./Yogesh_Mapari_Resume_v1_2024.pdf" 	type="application/pdf" 	width="100%" 	height="100%" />
+
+            </a>
+          </li>
+        </ul>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Engineer</h4>
+
+              <span>2021 — present</span>
+
+              <p class="timeline-text">
+                Project:-METRO Germany
+                <div class="expandable" onclick="toggleDescription()">More detailed work</div>
+
+                <div class="expanded-content" id="descriptionContent">
+                  
+              </br>● 🚀 **Designed, Developed, and Deployed Scalable GCP Python**
+            </br>● 🌐 Leveraged Google Cloud Platform (GCP) services including Compute Engine, App Engine, and Kubernetes Engine for scalable and efficient cloud solutions.
+            </br>●🛠️ Utilized GCP tools such as Cloud Storage,Apache Airflow, Pub/Sub, and Cloud Functions to enhance application functionality and performance.
+            </br>●🐍 Implemented Secure Python Data Processing Pipelines
+            </br>●🔒 Maintained GCP data integrity by designing and implementing secure Python data processing pipelines.
+            </br>●🔄 Created ETL Processes for BigQuery Integration and Developed ETL (Extract, Transform, Load) processes for seamless data transformation into BigQuery, ensuring security compliance.
+            </br>●🤝 Collaborated with Cross-Functional Teams and Worked closely with cross-functional teams to deliver comprehensive and secure cloud solutions.
+            </br>●🏛️ Contributed to Cloud Architecture Discussions
+            </br>●🔐 Integrated security controls and standards into cloud architecture discussions for robust and secure solutions.
+            </br>●🔍 Conducted/Performed Security Assessments and Vulnerability Scanning  and implemented risk mitigation measures.
+            </br>●🔐 Implemented Least Privilege Access Controls and Enhanced application security by implementing least privilege access controls.              </p>
+           </div>
+          
+            
+<script>
+  function toggleDescription() {
+      var expandedContent = document.getElementById("descriptionContent");
+      expandedContent.style.display = (expandedContent.style.display === 'block') ? 'none' : 'block';
+  }
+  function toggleDescription1() {
+      var expandedContent = document.getElementById("descriptionContent1");
+      expandedContent.style.display = (expandedContent.style.display === 'block') ? 'none' : 'block';
+  }
+  function toggleDescription2() {
+      var expandedContent = document.getElementById("descriptionContent2");
+      expandedContent.style.display = (expandedContent.style.display === 'block') ? 'none' : 'block';
+  }
+</script>
+           
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education </h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">
+                National Institute of Technology, Andhra Pradesh
+                </h4>
+
+              <span>2017 — 2021</span>
+
+              <p class="timeline-text">
+                Bachelors of Technology in Mechanical Engineering 
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Riverdale High School</h4>
+
+              <span>2014 — 2016</span>
+
+              <p class="timeline-text">
+                Higher Secondary eduction in PCM (class 11th & 12th)
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Jawahar Navodaya Vidyalaya, Washim</h4>
+
+              <span>2009 — 2014</span>
+
+              <p class="timeline-text">
+                Primary Education 
+              </p>
+
+            </li>
+
+          </ol>
+
+          
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">TECHNICAL SKILLS</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">GCP Services</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Automation and Scripting(python)</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5"> Database Expertise</h5>
+                <data value="95">95%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 95%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Security:</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+        <h3 class="h3 clients-title">Download Resume</h3>
+  
+        <ul class="clients-list has-scrollbar">
+
+          <li class="clients-item">
+            <a href="./Yogesh_Mapari_Resume.pdf">
+              <img src="./assets/images/resume1.jpg" alt="client logo">
+              <embed 	src="./Yogesh_Mapari_Resume.pdf" 	type="application/pdf" 	width="100%" 	height="500px" />
+            </a>
+          </li>
+          <li class="clients-item">
+            <a href="./Yogesh_Mapari_Resume_v1_2024.pdf">
+              <img src="./assets/images/resume.png" alt="client logo">
+              <embed 	src="./Yogesh_Mapari_Resume_v1_2024.pdf" 	type="application/pdf" 	width="100%" 	height="500px" />
+
+            </a>
+          </li>
+        </ul>
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>GCP</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Python</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>SQL</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>GCP</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Python</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>SQL</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="GCP">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/gcp.jpg" alt="Migration" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Migration</h3>
+
+                <p class="project-category">GCP</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Python">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/python.jpg" alt="Automations" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Automations</h3>
+
+                <p class="project-category">Python</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Python">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/python.jpg" alt="Automations" loading="lazy">
+                </figure>
+
+                <h3 class="project-title" >mouse move</h3>
+
+                <a href="https://medium.com/@patilmapari/automating-mouse-movements-e6339518d1f0" >Python </br>CLICK HERE FOR CODE</a>
+
+              </a>
+            </li>
+
+
+
+
+
+
+  
+
+            <li class="project-item  active" data-filter-item data-category="SQL">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/sqldata.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Data Engineering</h3>
+
+                <p class="project-category">SQL</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://maps.google.com/maps?q=hinjewadi+pune&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
